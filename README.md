@@ -40,7 +40,7 @@ Users
         │   
         │   
         |  
-        |---advanced-biostatistics-lab
+        |---advanced-biostatistics-lab-fall-2017
             |
             |
             |
