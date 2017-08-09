@@ -74,4 +74,7 @@ Again, you can also do this in the shell. Simply navigate inside of your homewor
 * [The Unix Workbench](http://seankross.com/the-unix-workbench/)
 * [Interactive learning guide for Git](http://learngitbranching.js.org/)
 * [GitHub Guides](https://guides.github.com/)
+* [Git setup for Windows](https://youtu.be/F_fPEMnr1OQ)
+* [Git setup for Mac](https://www.youtube.com/watch?v=kbmSZwK0k-A&t)
+* [How to clone, edit, and push homework assignments with GitHub Classroom](https://youtu.be/pAcMgGbCtQw)
 
