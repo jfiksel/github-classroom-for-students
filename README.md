@@ -9,11 +9,9 @@ This is a guide for students to setup Git and GitHub for use with GitHub Classro
 
 3. Install Git. Directions for both Windows & Mac here: http://happygitwithr.com/install-git.html. Windows users should follow Option 1 in 7.2. Mac users can follow Option 1 in 7.3 if comfortable, otherwise follow Option 2
 
-4. Setup options in Git. In RStudio, open up the shell by clicking Tools -> Shell. If you don't want to enter RStudio, you can go to the terminal if you have a Mac (Applications -> Utilities -> Terminal) or Git BASH if you have Windows. Enter the three lines of code here: http://happygitwithr.com/hello-git.html, changing the first two lines to your own name and email (this should be the email associated with your GitHub account). Note that Windows users should  read section 8.1 in the above link carefully
+4. Setup options in Git. In you have a Mac, open up the shell in R Studio by clicking Tools -> Shell. If you don't want to enter RStudio, you can go to the terminal if you have a Mac (Applications -> Utilities -> Terminal). If you have a Windows, open Git BASH, which you should have downloaded in step 3. Enter the three lines of code here: http://happygitwithr.com/hello-git.html, changing the first two lines to your own name and email (this should be the email associated with your GitHub account). Note that Windows users should  read section 8.1 in the above link carefully
 
-5. Generate a SSH key so you don’t need to enter your password every time you interact with GitHub. First check to see if you have a SSH key. Go into the shell (again, either through RStudio, Terminal for Mac, or Git Bash for Windows) and enter “ls -al ~/.ssh” (do not include the quotation marks). If you see two files called “id_rsa.pub” and “id_rsa”, complete sections 12.4.2 and 12.4.3 on this page http://happygitwithr.com/ssh-keys.html.
-
-If not, in RStudio, open preferences, click on the Git/SVN panel, and click Create RSA Key. Once you do this, return to the Git/SVN panel, click “View public key”, and copy the key to your keyboard. In GitHub, go to Settings, then SSH and CPG keys panel. Click New SSH key on the top right, give it a descriptive title (mine is “Jacobs MacBook Pro”), and paste the key you just copied. 
+5. Generate a SSH key so you don’t need to enter your password every time you interact with GitHub. First check to see if you have a SSH key. Go into the shell (again, either through RStudio, Terminal for Mac, or Git Bash for Windows) and complete on this page http://happygitwithr.com/ssh-keys.html, which is Chapter 12 in Happy Git with R.
 
 6. Follow the instructions here (http://happygitwithr.com/push-pull-github.html) to ensure you can connect to GitHub from your computer.
 
@@ -51,13 +49,13 @@ Users
                       
 ```
 
-2. We will email you a link to an assignment. This will happen for each new assignment. The first time that you click the link, you will be asked to be added to an organization. Please do this. Then follow the instructions for getting the homework repository set up. You should now have a repository for this homework.
+2. We will email you a link to an assignment. This will happen for each new assignment Then follow the instructions for getting the homework repository set up. You should now have a repository for this homework. Note that after you accept an assignment for the first time, we will send you an invite to join the classroom organization as a member. Please accept this.
 
 3. Enter the homework repository on GitHub (this is online--GitHub is different from Git!). Click “Clone or Download”, and make sure it says “Clone with SSH” in bold in the top left of the pop-up box. If not, click on the blue “Use SSH” button on the top right of the pop-up box. Now copy the link in the box to your clipboard. 
 
 4. In RStudio, go to File -> New Project. Click Version Control, then Git. Paste the link you just copied into the Repository URL box. Leave the Project directory name blank. Create this as a subdirectory of your homeworks folder. An RStudio project should now open up, which will allow you to start working on your homework assignment.
 
-If you're not working with RStudio, you do this in the shell. Navigate inside of your `homeworks` directory and then type `git clone repository-link` where `repository link` should be replaced with the link you copied to your clipboard in step 3.
+If you're not working with RStudio, you can do this in the shell. Navigate inside of your `homeworks` directory and then type `git clone repository-link` where `repository link` should be replaced with the link you copied to your clipboard in step 3.
 
 5. After you make changes to the homework assignment, commit them. What are commits you ask? Commits are essentially taking a snapshot of your projects. For example, if I make changes to a code so that it prints "Hello world", and then commit them with an informative message, I can look at the history of my commits and view the code that I wrote at that time. If I made some more changes to the function that resulted in an error, I could go back to the commit where the code was originally working. This prevents you from creating several versions of your homework (homework-v1, homework-v2, ...) or from trying to remember what your code originally looked like.
 
