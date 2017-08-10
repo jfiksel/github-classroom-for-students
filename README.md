@@ -21,23 +21,23 @@ This is a guide for students to setup Git and GitHub for use with GitHub Classro
 
 Note you can do this as you normally would with pointing and clicking, but you can also use the shell! This is good practice if you want to use Git outside of the class, as you normally have to use the Shell to interact with Git. Sean Kross has a great guide for using the shell here--http://seankross.com/the-unix-workbench/. However, I'll show you the basic steps you need.
 
-One thing that the shell does is allow you to navigate through all of your files by typing commands, rather than using your mouse. When you open up the shell, you can type `PWD`. This tells you the directory (folder) that you are in. You can also type `ls`. This lists the directories available to you. For example when I type `PWD`, the result is `/Users/jfiksel`. This tells me that I am in my own directory inside of my computer. When I type `ls`, I see directories such as Applications, Documents, etc... I can also enter into a directory using the `cd` command. If I type `cd Documents`, then I am now inside of the Documents directory. When I type `PWD`, the result is now `/Users/jfiksel/Documents`. I can go back to `/Users/jfiksel` by typing `cd ..`. 
+One thing that the shell does is allow you to navigate through all of your files by typing commands, rather than using your mouse. When you open up the shell, you can type `PWD`. This tells you the directory (folder) that you are in. You can also type `ls`. This lists the directories available to you. For example when I type `PWD`, the result is `/Users/jfiksel`. This tells me that I am in my own directory inside of my computer. When I type `ls`, I see directories such as Applications, Documents, etc... I can also enter into a directory using the `cd` command. If I type `cd Documents`, then I am now inside of the Documents directory. When I type `PWD`, the result is now `/Users/jfiksel/Documents`. I can go back to `/Users/jfiksel` by typing `cd ..`.
 
 Now I want to make a directory (note I'm using directory and folder interchangeably here). I can use the `mkdir` command. To make a directory called class-directory (it's good practice to not have spaces in your folder names), I can type `mkdir class-directory`. If you type `ls`, you'll now see `class-directory` appear. You can then enter `cd class-directory` to go into the class-directory. Finally, to make the two directories that I talked about, we type `mkdir lectures` and `mkdir homeworks`. Here is a basic illustration of how my directory structure looks for a class titled Advanced Biostatistics Lab taken in Fall 2017 at Johns Hopkins.
 
 ```
 Users
-│   
-│    
+│
+│
 │
 └───jfiksel
-    │   
-    │   
+    │
+    │
     │
     └───hopkins-documents
-        │   
-        │   
-        |  
+        │
+        │
+        |
         |---advanced-biostatistics-lab-fall-2017
             |
             |
@@ -46,12 +46,12 @@ Users
             |
             |
             |---lectures
-                      
+
 ```
 
 2. We will email you a link to an assignment. This will happen for each new assignment Then follow the instructions for getting the homework repository set up. You should now have a repository for this homework. Note that after you accept an assignment for the first time, we will send you an invite to join the classroom organization as a member. Please accept this.
 
-3. Enter the homework repository on GitHub (this is online--GitHub is different from Git!). Click “Clone or Download”, and make sure it says “Clone with SSH” in bold in the top left of the pop-up box. If not, click on the blue “Use SSH” button on the top right of the pop-up box. Now copy the link in the box to your clipboard. 
+3. Enter the homework repository on GitHub (this is online--GitHub is different from Git!). Click “Clone or Download”, and make sure it says “Clone with SSH” in bold in the top left of the pop-up box. If not, click on the blue “Use SSH” button on the top right of the pop-up box. Now copy the link in the box to your clipboard.
 
 4. In RStudio, go to File -> New Project. Click Version Control, then Git. Paste the link you just copied into the Repository URL box. Leave the Project directory name blank. Create this as a subdirectory of your homeworks folder. An RStudio project should now open up, which will allow you to start working on your homework assignment.
 
@@ -65,7 +65,7 @@ You can also do this through the shell. Navigate to the homework directory. If I
 
 Two things about committing. One, you should commit somewhat frequently. At minimum, if you're doing a homework assignment, you should make a commit each time that you've finished a question. Two, leave informative commit messages. "Added stuff" will not help you if you're looking at your commit history in a year. A message like "Added initial version of hello-world function" will be more useful.
 
-6. At somepoint you'll want to get the updated version of the assignment back onto GitHub, either so that teachers/TAs can help you with your code, or so that it can be graded. You can do this by using a command called `git push`. If you are ready to push, you can again click on the GIT toolbar dropdown menu in RStudio, and then click `Push branch`. You can also do this after you commit in RStudio by clicking Push in the top right corner of the Commit pop-up box. 
+6. At somepoint you'll want to get the updated version of the assignment back onto GitHub, either so that teachers/TAs can help you with your code, or so that it can be graded. You can do this by using a command called `git push`. If you are ready to push, you can again click on the GIT toolbar dropdown menu in RStudio, and then click `Push branch`. You can also do this after you commit in RStudio by clicking Push in the top right corner of the Commit pop-up box.
 
 Again, you can also do this in the shell. Simply navigate inside of your homework directory and then enter `git push`. Easy!
 
@@ -74,7 +74,6 @@ Again, you can also do this in the shell. Simply navigate inside of your homewor
 * [The Unix Workbench](http://seankross.com/the-unix-workbench/)
 * [Interactive learning guide for Git](http://learngitbranching.js.org/)
 * [GitHub Guides](https://guides.github.com/)
-* [Git setup for Windows](https://youtu.be/F_fPEMnr1OQ)
-* [Git setup for Mac](https://www.youtube.com/watch?v=kbmSZwK0k-A&t)
-* [How to clone, edit, and push homework assignments with GitHub Classroom](https://youtu.be/pAcMgGbCtQw)
-
+* [Git setup for Windows (video)](https://youtu.be/F_fPEMnr1OQ)
+* [Git setup for Mac (video)](https://www.youtube.com/watch?v=kbmSZwK0k-A&t)
+* [How to clone, edit, and push homework assignments with GitHub Classroom (video)](https://youtu.be/pAcMgGbCtQw)
