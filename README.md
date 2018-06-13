@@ -15,9 +15,15 @@ This is a guide for students to setup Git and GitHub for use with GitHub Classro
 
 ![Alt Text](http://g.recordit.co/ibUp6dYimU.gif)
 
-5. Generate a SSH key so you don’t need to enter your password every time you interact with GitHub. First check to see if you have a SSH key. Go into the shell (again, either through RStudio, Terminal for Mac, or Git Bash for Windows) and complete on this page http://happygitwithr.com/ssh-keys.html, which is Chapter 12 in Happy Git with R.
+5. Generate a SSH key so you don’t need to enter your password every time you interact with GitHub. First check to see if you have a SSH key. Go into the shell (again, either through RStudio, Terminal for Mac, or Git Bash for Windows) and complete on this page http://happygitwithr.com/ssh-keys.html, which is Chapter 12 in Happy Git with R. The instructions are quite thorough, so if you want to follow along with a visualization, I recommend watching the Git setup videos under resources. This is covered starting at 9:32 in the Mac video and 9:18 in the Windows video.
 
-6. Follow the instructions here (http://happygitwithr.com/push-pull-github.html) to ensure you can connect to GitHub from your computer.
+6. Follow the instructions here (http://happygitwithr.com/push-pull-github.html) to ensure you can connect to GitHub from your computer. Here are step-by-step GIFs from a Mac that help visualize this process.
+
+### Make a repo on GitHub
+
+Below we make a repository and copy the link so that we can get the repository onto our own computer.
+
+![Alt Text](http://g.recordit.co/Uw0QIT8XhR.gif)
 
 ### Steps for downloading and editing assignments from GitHub Classroom
 
@@ -71,7 +77,7 @@ Users
 
     Two things about committing. One, you should commit somewhat frequently. At minimum, if you're doing a homework assignment, you should make a commit each time that you've finished a question. Two, leave informative commit messages. "Added stuff" will not help you if you're looking at your commit history in a year. A message like "Added initial version of hello-world function" will be more useful.
 
-6.  At somepoint you'll want to get the updated version of the assignment back onto GitHub, either so that teachers/TAs can help you with your code, or so that it can be graded. You can do this by using a command called `git push`. If you are ready to push, you can again click on the GIT toolbar dropdown menu in RStudio, and then click `Push branch`. You can also do this after you commit in RStudio by clicking Push in the top right corner of the Commit pop-up box.
+6.  At some point you'll want to get the updated version of the assignment back onto GitHub, either so that teachers/TAs can help you with your code, or so that it can be graded. You can do this by using a command called `git push`. If you are ready to push, you can again click on the GIT toolbar dropdown menu in RStudio, and then click `Push branch`. You can also do this after you commit in RStudio by clicking Push in the top right corner of the Commit pop-up box.
 
     Again, you can also do this in the shell. Simply navigate inside of your homework directory and then enter `git push`. Easy!
 
