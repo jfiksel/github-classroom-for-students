@@ -73,7 +73,9 @@ And here is what the process of creating these directories looks like from the t
 
 ![Alt Text](http://g.recordit.co/6o0kNx4Lpv.gif)
 
-2.  We will give you a link to an assignment, either through email or the class page. This will happen for each new assignment Then follow the instructions for getting the homework repository set up. You should now have a repository for this homework. Note that after you accept an assignment for the first time, we will send you an invite to join the classroom organization as a member. Please accept this. You will probably get an email with the invitation, but you should also see a link at the top of your main GitHub page.
+2.  We will give you a link to an assignment, either through email or the class page. This will happen for each new assignment Then follow the instructions for getting the homework repository set up. You should now have a repository for this homework. Note that after you accept an assignment for the first time, we will send you an invite to join the classroom organization as a member. Please accept this. You will probably get an email with the invitation, but you should also see a link at the top of your main GitHub page. Here is an image of what you should see after clicking the link:
+
+![Alt Text](img/accept-assignment.png)
 
 3. Enter the homework repository on GitHub (this is online--GitHub is different from Git!). Click “Clone or Download”, and make sure it says “Clone with SSH” in bold in the top left of the pop-up box. If not, click on the blue “Use SSH” button on the top right of the pop-up box. Now copy the link in the box to your clipboard.
 
