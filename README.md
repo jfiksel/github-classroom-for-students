@@ -25,6 +25,14 @@ Below we make a repository and copy the link so that we can get the repository o
 
 ![Alt Text](http://g.recordit.co/Uw0QIT8XhR.gif)
 
+### Clone the repo to your local computer
+
+![Alt Text](http://g.recordit.co/0eLLGCclcO.gif)
+
+### Make a local change, commit, and push and confirm the local change propogated to the GitHub Remote
+
+![Alt Text](http://g.recordit.co/f24e9xvo6d.gif)
+
 ### Steps for downloading and editing assignments from GitHub Classroom
 
 1.  Have a folder specifically for your class (call it something like classroom-fall-2017). Within this folder, I would recommend a folder titled lectures (this can be pulled from the organization--we will show you how to do this), as well a folder title homework.
