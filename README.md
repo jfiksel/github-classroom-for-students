@@ -99,9 +99,11 @@ You can also do this through the shell. Navigate to the homework directory. If I
 
 Two things about committing. One, you should commit somewhat frequently. At minimum, if you're doing a homework assignment, you should make a commit each time that you've finished a question. Two, leave informative commit messages. "Added stuff" will not help you if you're looking at your commit history in a year. A message like "Added initial version of hello-world function" will be more useful.
 
-6.  At some point you'll want to get the updated version of the assignment back onto GitHub, either so that teachers/TAs can help you with your code, or so that it can be graded. You can do this by using a command called `git push`. If you are ready to push, you can again click on the GIT toolbar dropdown menu in RStudio, and then click `Push branch`. You can also do this after you commit in RStudio by clicking Push in the top right corner of the Commit pop-up box.
+6.  At some point you'll want to get the updated version of the assignment back onto GitHub, either so that teachers/TAs can help you with your code, or so that it can be graded. You can do this by using a command called `git push`. If you are ready to push, you can again click on the GIT toolbar dropdown menu in RStudio, and then click `Push branch`. You can also do this after you commit in RStudio by clicking Push in the top right corner of the Commit pop-up box. Here is a visualization of both options:
 
-    Again, you can also do this in the shell. Simply navigate inside of your homework directory and then enter `git push`. Easy!
+![Alt Text](http://g.recordit.co/TkOnIVLttw.gif)
+
+Again, you can also do this in the shell. Simply navigate inside of your homework directory and then enter `git push`. Easy!
 
 ### Obtaining and pulling a shared repository
 
